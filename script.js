@@ -38,7 +38,7 @@ submit.addEventListener("click", (e) => {
 getWeather("Delhi");
 
     fetch(
-      "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Shanghai",
+      "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Chandigarh",
       options
     )
       .then((response) => response.json())

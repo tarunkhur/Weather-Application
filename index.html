@@ -10,33 +10,6 @@
     <h1 class="my-4 text-center">Weather for <span id="cityName"></span></h1>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Weather App</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About this App</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  How to use?
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Delhi</a></li>
-                    <li><a class="dropdown-item" href="#">Seattle</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Bangalore</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Usage Guide</a>
-              </li>
-            </ul>
             <form class="d-flex" role="search">
               <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
@@ -60,7 +33,6 @@
                       <li>Min temperature is <span id="min_temp"></span></li>
                       <li>Max temperature is <span id="max_temp"></span></li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
                   </div>
                 </div>
               </div>
@@ -76,7 +48,6 @@
                         <li>Feels Like is <span id="feels_like"></span></li>
                         <li>Humidity is <span id="humidity"></span></li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                   </div>
                 </div>
               </div>
@@ -92,7 +63,6 @@
                         <li>Wind degree is <span id="wind_degrees"></span></li>
                         <li>Sunset time is <span id="sunset"></span></li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
                   </div>
                 </div>
               </div>
@@ -119,7 +89,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row" class="text-start">Shanghai</th>
+                    <th scope="row" class="text-start">Chandigarh</th>
                     <td id="cloud"></td>
                     <td id="temper"></td>
                     <td id="feel"></td>
@@ -130,48 +100,6 @@
                     <td id="wDegree"></td>
                     <td id="sunR"></td>
                     <td id="sunS"></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Boston</th>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                  </tr>
-                </tbody>
-        
-                <tbody>
-                  <tr>
-                    <th scope="row" class="text-start">Lucknow</th>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Kolkata</th>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
                   </tr>
                 </tbody>
               </table>
